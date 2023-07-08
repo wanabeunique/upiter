@@ -1,0 +1,63 @@
+.hero
+  &__container
+    display: grid
+    grid-template-columns: 1fr 1fr
+  &__slides
+    height: 100%
+    position: relative
+    right: -10px
+  &__slide
+    display: none
+    padding: 50px
+    height: 567px
+    background-size: cover
+  &__title
+    color: var(--black-color)
+    font-size: 50px
+    font-weight: 700
+    margin: 0
+    max-width: 70%
+  &__description
+    color: var(--black-color)
+    font-size: 17px
+    font-weight: 300
+    margin: 0
+    max-width: 70%
+  &__choose
+    display: grid
+    grid-template-rows: repeat(3, 1fr)
+  &__select
+    display: flex
+    align-items: center
+    gap: 50px
+    background: linear-gradient(140deg, #F7F7F7 0%, rgba(247, 247, 247, 0.00) 100%)
+    box-shadow: var(--blue-shadow)
+    padding-left: 50px
+    border-radius: 25px
+  &__slide
+    background-position: top
+    background-repeat: no-repeat
+    flex-direction: column
+    border-radius: 25px
+    gap: 20px
+  &__slides
+    border-radius: 20px
+  .active-slide
+    display: flex
+  &__select--text
+    color: var(--black-color)
+    font-size: 27px
+    font-weight: 600
+  .active-select
+    background: linear-gradient(184deg, #DBF8FF 0%, #D2E7FF 100%)
+
+
+
+#hero-slide1
+  background-image: url('./../img/hero/hero-slide1.png')
+
+#hero-slide2
+  background-image: url('./../img/hero/hero-slide2.png')
+
+#hero-slide3
+  background-image: url('./../img/hero/hero-slide3.png')

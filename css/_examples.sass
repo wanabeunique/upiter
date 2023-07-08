@@ -1,0 +1,64 @@
+.examples
+  margin-top: var(--container-offset)
+  background: url('./../img/examplesBG.png')
+  background-repeat: no-repeat
+  background-size: cover
+  title
+    margin: 0
+  &__container
+    padding-top: 70px
+    padding-bottom: 70px
+  &__nav
+    display: flex
+    align-items: center
+    gap: 10px
+
+    .swiper-pagination
+      display: flex
+      gap: 10px
+    .swiper-pagination-bullet
+      display: block
+      width: 10px
+      height: 10px
+      border-radius: 100%
+      background: var(--white-color)
+    .swiper-button-prev,.swiper-button-next
+      width: 50px
+      height: 50px
+      background: var(--white-color)
+      border-radius: 100%
+      display: flex
+      align-items: center
+      justify-content: center
+    .swiper-pagination-bullet-active
+      background: #BABBBE
+    .swiper-pagination
+  &__swiper
+  &__top
+    display: flex
+    justify-content: space-between
+    margin-bottom: 35px
+  &__slide
+    background: var(--white-color)
+    padding: 25px
+    border-radius: 22px
+    display: flex
+    flex-direction: column
+    gap: 20px
+  &__slide--img
+    width: 100%
+    max-height: 225px
+    height: 100%
+    object-fit: cover 
+  &__slide--title
+    margin: 0
+    color: var(--black-color)
+    font-size: 27px
+    font-weight: 600
+    line-height: 104.9%
+  &__slide--subtitle
+    margin: 0
+    color: var(--black-color)
+    font-size: 15px
+    font-weight: 300
+    line-height: 130%

@@ -1,0 +1,86 @@
+.header
+  min-height: 150px
+  &__container
+    display: flex
+    justify-content: space-between
+    padding: 40px
+    height: 100%
+  &__logo
+    display: flex
+    align-items: center
+    height: 100%
+    gap: 50px
+  &__subtitle
+    max-width: 420px
+    width: 100%
+    font-size: 19px
+    font-weight: 500
+    letter-spacing: 2.678px
+    color: var(--black-color)
+    margin: 0
+  &__contact--text
+    text-decoration: none
+    color: var(--black-color)
+    font-size: 17px
+    font-weight: 500
+  &__item
+    background: var(--gray-gradient)
+    border-radius: 55px
+    display: flex
+    align-items: center
+    width: 100%
+  &__info
+    display: flex
+    gap: 20px
+  &__nav
+    position: relative
+    z-index: 7
+    padding: 30px
+  &__nav--container
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+  &__contact
+    padding: 15px
+    justify-content: center
+    gap: 20px
+    min-width: 220px
+  &__burger
+    width: 70px
+    height: 100%
+    align-self: center
+    z-index: 8
+  &__menu
+    display: none
+  &__link
+    text-decoration: none
+    color: var(--black-color)
+    font-size: 31px
+    font-weight: 700
+    line-height: 104.9%
+    &:hover
+      color: var(--blue-gradient)
+  &__nav--active
+    display: flex
+    flex-direction: column
+    border-radius: 26px
+    background: #F9FEFF
+    box-shadow: 4px 4px 41px 0px rgba(0, 33, 150, 0.15)
+    z-index: 2
+  &__menu--active
+    z-index: -1
+    padding: 30px
+    position: absolute
+    top: 80px
+    width: 100%
+    left: 0
+    background: #F9FEFF
+    display: flex
+    flex-direction: column
+    gap: 50px
+    border-radius: 0 0 26px 26px
+  &__mob
+    display: none
+
+  
+    

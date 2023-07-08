@@ -1,0 +1,51 @@
+:root
+  // fonts 
+  --font-family: "Gilroy", sans-serif
+  --footer-font-family: "Montserrat", sans-serif
+  // colors
+  --white-color: #fff
+  --black-color: #000
+  --gray-gradient: linear-gradient(180deg, #F4F4F4 0%, #EFEFEF 100%)
+  --blue-gradient: linear-gradient(180deg, #CFEFFE 0%, rgba(246, 246, 246, 0.00) 100%)
+  // offsets
+  --big-container-offset: 100px
+  --container-offset: 80px
+  --middle-offset: 35px
+  --small-offset: 24px
+  // Красивая синяя тень
+  --blue-shadow: 4px 4px 15px 0px rgba(0, 33, 150, 0.08)
+
+body
+  min-width: 380px
+  font-family: var(--font-family)
+
+.container-wrap
+  max-width: 1560px
+  padding: 0 10px
+  margin: 0 auto
+
+a
+  &:hover
+    filter: contrast(1.6)
+
+.title
+  font-family: var(--font-family)
+  font-weight: 700
+  font-size: 56px
+  color: var(--black-color)
+  margin: 0
+  margin-bottom: 25px
+
+.description
+  font-family: var(--font-family)
+  font-weight: 300
+  font-size: 20px
+  color: var(--black-color)
+
+.logo
+  font-size: 51px
+  letter-spacing: 7.241px
+  text-transform: uppercase
+  color: var(--black-color)
+  font-weight: 400
+  margin: 0

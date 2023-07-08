@@ -1,0 +1,142 @@
+@media (max-width: 1400px)
+  .stages__list
+    grid-template-columns: 1fr 1fr 1fr
+    .stages__item
+      &:nth-child(3) 
+        &::before
+          display: none
+  
+@media (max-width: 1200px) 
+  .header__logo
+    flex-direction: column
+    gap: 10px
+  .header__subtitle
+    text-align: center
+  .history__container
+    grid-template-columns: 1.5fr 1fr
+  .footer__top
+    flex-direction: column
+  .footer__logo
+    justify-content: center
+  .footer__info
+    margin: 0 auto
+
+@media (max-width: 1024px)
+  .header__contact
+    display: none
+  .history__container
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+  .history__photos
+    width: 50%
+  .history__text
+    max-width: 100%
+  .hero__container
+    display: flex
+    flex-direction: column
+  .hero__slides
+    right: 0
+  .map__wrapper
+    grid-template-columns: 2fr 6fr
+  .map__wrapper
+    display: flex
+    flex-direction: column
+    max-height: 100%
+  .map__item
+    max-width: 100%
+  .header__nav--active
+    position: static
+  .header__nav
+    position: static
+  .header__menu--active
+    z-index: 6
+    height: 100vh
+    padding: 0
+    top: 0
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+  .header__nav--active
+    .header__mob
+      display: flex
+      max-width: 300px
+  .info__item
+    gap: 10px
+  .info__photo
+    padding: 15px 0
+  .stages__container
+    gap: 45px
+  .form__container
+    padding-top: 50px
+    padding-bottom: 50px
+  .about__text--wrapper
+    height: 110px
+  .map__item
+    padding: 10px
+@media (max-width: 800px)
+  .about__item
+    margin-bottom: 25px
+  .footer__info
+    display: flex
+    flex-direction: column
+  .stages__list
+    grid-template-columns: 1fr 1fr
+    .stages__item
+      &:nth-child(2)
+        &::before
+          display: none
+      &:nth-child(4)
+        &::before
+          display: none
+      &:nth-child(6)
+        &::before
+          display: none
+      &:nth-child(3)
+        &::before
+          display: block
+  .hero__slide
+    padding: 15px
+  .logo
+    font-size: 40px
+  // title
+  .title
+    font-size: 30px
+  .hero__title
+    font-size: 30px
+  .about__container
+    grid-template-columns: 1fr
+  .history__subtitle
+    font-size: 15px
+  .history__text
+    padding-left: 0
+
+@media (max-width: 600px)
+  .stages__list
+    display: flex
+    flex-direction: column
+    justify-content: center
+    gap: var(--middle-offset)
+    .stages__item
+      &:nth-child(3) 
+        &::before
+          display: none
+      &::before
+        display: none
+  .footer__bottom
+    display: flex
+    flex-direction: column
+    gap: var(--small-offset)
+  .footer__promolink
+    align-self: flex-start
+  .about__img
+    right: 0
+    z-index: 2
+  .about__text--wrapper
+    position: relative
+    right: 30px
+  .hero__select
+    padding-left: 25px
+    gap: 25px

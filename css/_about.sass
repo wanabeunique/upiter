@@ -1,0 +1,33 @@
+.about
+  margin-top: var(--container-offset)
+  &__container
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr))
+  &__item
+    display: flex
+    align-items: center
+    margin-bottom: 60px
+  &__img
+    position: relative
+    right: -30px
+    min-width: 130px
+    min-height: 130px
+    display: flex
+    align-items: center
+    justify-content: center
+    border-radius: 100%
+    background: linear-gradient(180deg, #DBF8FF 0%, #D2E7FF 100%)
+  &__text--wrapper
+    display: flex
+    align-items: center
+    height: 100px
+    width: 100%
+    border-radius: 0 20px 20px 0
+    padding-left: 50px
+    background: linear-gradient(140deg, #F7F7F7 0%, rgba(225, 225, 225, 0.08) 92.19%, rgba(247, 247, 247, 0.00) 100%)
+  &__text
+    margin: 0
+    color: var(--black-color)
+    font-size: 23px
+    font-weight: 500
+    line-height: 117.4%
